@@ -18,11 +18,13 @@
     "version": "2.3.9",
     "releaseDate": "2021-11-15",
     "author": "Ephox",
-    "contributors": [{
-        "name": "Davit Barbakadze",
-        "email": "davit.barbakadze@ephox.com"
-    }],
-    "main": "./js/plupload.full.min",
+    "contributors": [
+        {
+            "name": "Davit Barbakadze",
+            "email": "davit.barbakadze@ephox.com"
+        }
+    ],
+    "main": "./src/plupload.js",
     "homepage": "http://plupload.com",
     "repository": {
         "type": "git",
@@ -31,19 +33,24 @@
     "bugs": {
         "url": "https://github.com/moxiecode/plupload/issues"
     },
-    "licenses": [{
-        "type": "AGPLv3",
-        "url": "https://github.com/moxiecode/plupload/blob/master/license.txt"
-    }, {
-        "type": "Single Website",
-        "url": "http://plupload.com/license/plupload_commercial_single.txt"
-    }, {
-        "type": "OEM",
-        "url": "http://plupload.com/license/plupload_commercial_oem.txt"
-    }, {
-        "type": "Custom Licensing",
-        "url": "http://www.moxiecode.com/contact.php"
-    }],
+    "licenses": [
+        {
+            "type": "AGPLv3",
+            "url": "https://github.com/moxiecode/plupload/blob/master/license.txt"
+        },
+        {
+            "type": "Single Website",
+            "url": "http://plupload.com/license/plupload_commercial_single.txt"
+        },
+        {
+            "type": "OEM",
+            "url": "http://plupload.com/license/plupload_commercial_oem.txt"
+        },
+        {
+            "type": "Custom Licensing",
+            "url": "http://www.moxiecode.com/contact.php"
+        }
+    ],
     "engines": {
         "node": ">=0.8.0"
     },
