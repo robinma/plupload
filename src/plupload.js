@@ -1528,6 +1528,7 @@ plupload.Uploader = function(options) {
 						total : blob.size,
 						response : xhr.responseText,
 						status : xhr.status,
+						chunkBlob: chunkBlob,
 						responseHeaders: xhr.getAllResponseHeaders()
 					});
 
